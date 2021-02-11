@@ -64,6 +64,7 @@ namespace HotchocolateAuthExample
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
             app.UseRouting();
             app.UseAuthorization();
 
